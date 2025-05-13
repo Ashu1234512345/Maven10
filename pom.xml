@@ -34,9 +34,9 @@
         <version>3.2.2</version>
         <configuration>
           <archive>
-            <manifact>
+            <manifest>
   <mainClass>com.mavenproject10.project10.App</mainClass><!-- Change to your actual main class -->
-            </manifact>
+            </manifest>
           </archive>
         </configuration>
       </plugin>
