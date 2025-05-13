@@ -24,4 +24,22 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <!-- Build section: defines how the project should be built -->
+  <build>
+    <plugins>
+      <!-- Plugin for creating executable JAR file -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.2.2</version>
+        <configuration>
+          <archive>
+            <manifact>
+  <mainClass>com.mavenproject10.project10.App</mainClass><!-- Change to your actual main class -->
+            </manifact>
+          </archive>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
